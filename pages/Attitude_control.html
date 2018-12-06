@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title charset="utf-8">Mars Exploration</title>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"> </script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen" rel="stylesheet"/>
+  <link href="../css/custom.css" rel="stylesheet" type="text/css"/>
+ </head>
+ <body>
+  <nav class="navbar navbar-default navbar-darkbg-dark navbar-fixed-top">
+   <div class="container">
+    <div class="navbar-header">
+     <a class="navbar-brand" href="../index.html">Mars Exploration</a>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-docs">
+       <a class="nav-link" href="../docs.html">Docs</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-clusters">
+       <a class="nav-link" href="../clusters.html">Clusters</a>
+      </li>
+     </ul>
+     <ul class="nav navbar-nav">
+      <li class="nav-item" id="tag-viz">
+       <a class="nav-link" href="../viz.html">Viz</a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
+  <div class="container" style="padding-top: 30px;">
+   <div class="row">
+    <div class="col-sm-4">
+     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/STARS_on_EBEX_ld2012_image.png/220px-STARS_on_EBEX_ld2012_image.png" style="max-width: 300px"/>
+    </div>
+    <div class="col-sm-8">
+     <h1>Attitude control</h1>
+     <p>
+      <b>Attitude control</b>
+       is controlling the orientation of an object with respect to an 
+      <a href="#" title="Inertial frame of reference">inertial frame of reference</a>
+       or another entity like the 
+      <a href="#" title="Celestial sphere">celestial sphere</a>
+      , certain fields, and nearby objects, etc.
+
+     </p>
+    </div>
+   </div>
+   <h3 style="padding-top: 15px">Page Revisions</h3>
+   <table style="text-align: left; margin: 0px auto">
+    <tr>
+     <td>
+      <b>Year</b>
+     </td>
+     <td>
+      <b>Metadata</b>
+     </td>
+     <td>
+      <b>Sections</b>
+     </td>
+     <td>
+      <b>Top Words</b>
+     </td>
+     <td>
+      <b>First Paragraph</b>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=845301702" target="_blank">2018</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">74489 characters</p>
+      <p style="padding: 0px; margin: 0px; ">27 sections</p>
+      <p style="padding: 0px; margin: 0px; ">39 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">114 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">10 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=845301702#Introduction" target="_blank">1. Introduction</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=845301702#Geometry" target="_blank">2. Geometry</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=845301702#Sensors" target="_blank">3. Sensors</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=845301702#Algorithms" target="_blank">4. Algorithms</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=845301702#Actuators" target="_blank">5. Actuators</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=845301702#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=845301702#References" target="_blank">7. References</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       attitude
+       <span style="color: #bababa; font-size: 12px">0.384</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       k_
+       <span style="color: #bababa; font-size: 12px">0.315</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       control
+       <span style="color: #bababa; font-size: 12px">0.288</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actuators
+       <span style="color: #bababa; font-size: 12px">0.169</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       text
+       <span style="color: #bababa; font-size: 12px">0.157</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       displaystyle
+       <span style="color: #bababa; font-size: 12px">0.155</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gyro
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       damper
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       axis
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       torque
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       spin
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       magnetic
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       t_
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       momentum
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       orientation
+       <span style="color: #bababa; font-size: 12px">0.117</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Attitude control</b>
+        is controlling the orientation of an object with respect to an 
+       <a href="#" title="Inertial frame of reference">inertial frame of reference</a>
+        or another entity like the 
+       <a href="#" title="Celestial sphere">celestial sphere</a>
+       , certain fields, and nearby objects, etc.
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=810894127" target="_blank">2017</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">74038 characters</p>
+      <p style="padding: 0px; margin: 0px; ">27 sections</p>
+      <p style="padding: 0px; margin: 0px; ">39 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">112 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">10 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=810894127#Introduction" target="_blank">1. Introduction</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=810894127#Geometry" target="_blank">2. Geometry</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=810894127#Sensors" target="_blank">3. Sensors</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=810894127#Algorithms" target="_blank">4. Algorithms</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=810894127#Actuators" target="_blank">5. Actuators</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=810894127#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=810894127#References" target="_blank">7. References</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       attitude
+       <span style="color: #bababa; font-size: 12px">0.384</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       k_
+       <span style="color: #bababa; font-size: 12px">0.315</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       control
+       <span style="color: #bababa; font-size: 12px">0.288</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actuators
+       <span style="color: #bababa; font-size: 12px">0.169</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       text
+       <span style="color: #bababa; font-size: 12px">0.157</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       displaystyle
+       <span style="color: #bababa; font-size: 12px">0.155</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gyro
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       damper
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       axis
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       torque
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       spin
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       magnetic
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       t_
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       momentum
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       orientation
+       <span style="color: #bababa; font-size: 12px">0.117</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Attitude control</b>
+        is controlling the orientation of an object with respect to an 
+       <a href="#" title="Inertial frame of reference">inertial frame of reference</a>
+        or another entity (the 
+       <a href="#" title="Celestial sphere">celestial sphere</a>
+       , certain fields, nearby objects, etc.).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=756751245" target="_blank">2016</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">73697 characters</p>
+      <p style="padding: 0px; margin: 0px; ">27 sections</p>
+      <p style="padding: 0px; margin: 0px; ">39 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">112 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">10 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=756751245#Introduction" target="_blank">1. Introduction</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=756751245#Geometry" target="_blank">2. Geometry</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=756751245#Sensors" target="_blank">3. Sensors</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=756751245#Algorithms" target="_blank">4. Algorithms</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=756751245#Actuators" target="_blank">5. Actuators</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=756751245#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=756751245#References" target="_blank">7. References</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       attitude
+       <span style="color: #bababa; font-size: 12px">0.384</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       k_
+       <span style="color: #bababa; font-size: 12px">0.315</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       control
+       <span style="color: #bababa; font-size: 12px">0.288</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actuators
+       <span style="color: #bababa; font-size: 12px">0.169</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       text
+       <span style="color: #bababa; font-size: 12px">0.157</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       displaystyle
+       <span style="color: #bababa; font-size: 12px">0.155</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gyro
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       damper
+       <span style="color: #bababa; font-size: 12px">0.131</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       axis
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       torque
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       spin
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       magnetic
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       t_
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       momentum
+       <span style="color: #bababa; font-size: 12px">0.118</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       orientation
+       <span style="color: #bababa; font-size: 12px">0.117</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Attitude control</b>
+        is controlling the orientation of an object with respect to an 
+       <a href="#" title="Inertial frame of reference">inertial frame of reference</a>
+        or another entity (the 
+       <a href="#" title="Celestial sphere">celestial sphere</a>
+       , certain fields, nearby objects, etc.).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=694282232" target="_blank">2015</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">58244 characters</p>
+      <p style="padding: 0px; margin: 0px; ">27 sections</p>
+      <p style="padding: 0px; margin: 0px; ">28 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">7 images</p>
+      <p style="padding: 0px; margin: 0px; ">105 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">10 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=694282232#Introduction" target="_blank">1. Introduction</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=694282232#Geometry" target="_blank">2. Geometry</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=694282232#Sensors" target="_blank">3. Sensors</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=694282232#Algorithms" target="_blank">4. Algorithms</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=694282232#Actuators" target="_blank">5. Actuators</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=694282232#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=694282232#References" target="_blank">7. References</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       attitude
+       <span style="color: #bababa; font-size: 12px">0.403</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       control
+       <span style="color: #bababa; font-size: 12px">0.260</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       axis
+       <span style="color: #bababa; font-size: 12px">0.184</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gyro
+       <span style="color: #bababa; font-size: 12px">0.170</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       spin
+       <span style="color: #bababa; font-size: 12px">0.168</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       damper
+       <span style="color: #bababa; font-size: 12px">0.167</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       orientation
+       <span style="color: #bababa; font-size: 12px">0.149</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sensor
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       thrusters
+       <span style="color: #bababa; font-size: 12px">0.136</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actuators
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       vehicle
+       <span style="color: #bababa; font-size: 12px">0.132</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stabilization
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sensors
+       <span style="color: #bababa; font-size: 12px">0.125</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       spacecraft
+       <span style="color: #bababa; font-size: 12px">0.124</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       algorithms
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Attitude control</b>
+        is controlling the orientation of an object with respect to an 
+       <a href="#" title="Inertial frame of reference">inertial frame of reference</a>
+        or another entity (the 
+       <a href="#" title="Celestial sphere">celestial sphere</a>
+       , certain fields, nearby objects, etc.).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=636589795" target="_blank">2014</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">60214 characters</p>
+      <p style="padding: 0px; margin: 0px; ">27 sections</p>
+      <p style="padding: 0px; margin: 0px; ">29 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">6 images</p>
+      <p style="padding: 0px; margin: 0px; ">117 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">9 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=636589795#Introduction" target="_blank">1. Introduction</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=636589795#Geometry" target="_blank">2. Geometry</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=636589795#Sensors" target="_blank">3. Sensors</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=636589795#Algorithms" target="_blank">4. Algorithms</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=636589795#Actuators" target="_blank">5. Actuators</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=636589795#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=636589795#References" target="_blank">7. References</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       attitude
+       <span style="color: #bababa; font-size: 12px">0.401</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       control
+       <span style="color: #bababa; font-size: 12px">0.250</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       axis
+       <span style="color: #bababa; font-size: 12px">0.177</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gyro
+       <span style="color: #bababa; font-size: 12px">0.163</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       spin
+       <span style="color: #bababa; font-size: 12px">0.161</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       damper
+       <span style="color: #bababa; font-size: 12px">0.161</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       orientation
+       <span style="color: #bababa; font-size: 12px">0.156</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       thrusters
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       spacecraft
+       <span style="color: #bababa; font-size: 12px">0.138</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sensor
+       <span style="color: #bababa; font-size: 12px">0.137</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actuators
+       <span style="color: #bababa; font-size: 12px">0.129</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       vehicle
+       <span style="color: #bababa; font-size: 12px">0.127</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stabilization
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sensors
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       algorithms
+       <span style="color: #bababa; font-size: 12px">0.117</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Attitude control</b>
+        is controlling the orientation of an object with respect to an 
+       <a href="#" title="Inertial frame of reference">inertial frame of reference</a>
+        or another entity (the 
+       <a href="#" title="Celestial sphere">celestial sphere</a>
+       , certain fields, nearby objects, etc.).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=587509504" target="_blank">2013</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">55962 characters</p>
+      <p style="padding: 0px; margin: 0px; ">25 sections</p>
+      <p style="padding: 0px; margin: 0px; ">22 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">5 images</p>
+      <p style="padding: 0px; margin: 0px; ">108 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">9 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=587509504#Introduction" target="_blank">1. Introduction</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=587509504#Geometry" target="_blank">2. Geometry</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=587509504#Sensors" target="_blank">3. Sensors</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=587509504#Algorithms" target="_blank">4. Algorithms</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=587509504#Actuators" target="_blank">5. Actuators</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=587509504#See_also" target="_blank">6. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=587509504#References" target="_blank">7. References</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       attitude
+       <span style="color: #bababa; font-size: 12px">0.417</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       spin
+       <span style="color: #bababa; font-size: 12px">0.186</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       stabilization
+       <span style="color: #bababa; font-size: 12px">0.177</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       spacecraft
+       <span style="color: #bababa; font-size: 12px">0.174</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sensor
+       <span style="color: #bababa; font-size: 12px">0.172</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gyro
+       <span style="color: #bababa; font-size: 12px">0.171</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       thrusters
+       <span style="color: #bababa; font-size: 12px">0.164</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       control
+       <span style="color: #bababa; font-size: 12px">0.151</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       algorithms
+       <span style="color: #bababa; font-size: 12px">0.146</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sensors
+       <span style="color: #bababa; font-size: 12px">0.134</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       wheels
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actuators
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       maneuvers
+       <span style="color: #bababa; font-size: 12px">0.130</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       momentum
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       articulation
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Attitude control</b>
+        is the exercise of control over the orientation of an object with respect to an 
+       <a href="#" title="Inertial frame of reference">inertial frame of reference</a>
+        or another entity (the 
+       <a href="#" title="Celestial sphere">celestial sphere</a>
+       , certain fields, nearby objects, etc.).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=527840669" target="_blank">2012</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">39622 characters</p>
+      <p style="padding: 0px; margin: 0px; ">23 sections</p>
+      <p style="padding: 0px; margin: 0px; ">14 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">81 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">8 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=527840669#Sensors" target="_blank">1. Sensors</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=527840669#Algorithms" target="_blank">2. Algorithms</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=527840669#Actuators" target="_blank">3. Actuators</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=527840669#See_also" target="_blank">4. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=527840669#References" target="_blank">5. References</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       attitude
+       <span style="color: #bababa; font-size: 12px">0.411</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sensor
+       <span style="color: #bababa; font-size: 12px">0.254</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gyro
+       <span style="color: #bababa; font-size: 12px">0.252</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       algorithms
+       <span style="color: #bababa; font-size: 12px">0.217</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sensors
+       <span style="color: #bababa; font-size: 12px">0.199</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actuators
+       <span style="color: #bababa; font-size: 12px">0.192</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       star
+       <span style="color: #bababa; font-size: 12px">0.178</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       senses
+       <span style="color: #bababa; font-size: 12px">0.173</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sense
+       <span style="color: #bababa; font-size: 12px">0.159</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       orientation
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       control
+       <span style="color: #bababa; font-size: 12px">0.121</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gyrocompass
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oscillation
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tracker
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       desired
+       <span style="color: #bababa; font-size: 12px">0.105</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Attitude control</b>
+        is the exercise of control over the orientation of an object with respect to an 
+       <a href="#" title="Inertial frame of reference">inertial frame of reference</a>
+        or another entity (the 
+       <a href="#" title="Celestial sphere">celestial sphere</a>
+       , certain fields, nearby objects, etc.).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=467722411" target="_blank">2011</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">37913 characters</p>
+      <p style="padding: 0px; margin: 0px; ">23 sections</p>
+      <p style="padding: 0px; margin: 0px; ">14 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">1 images</p>
+      <p style="padding: 0px; margin: 0px; ">84 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">5 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=467722411#Sensors" target="_blank">1. Sensors</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=467722411#Algorithms" target="_blank">2. Algorithms</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=467722411#Actuators" target="_blank">3. Actuators</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=467722411#See_also" target="_blank">4. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=467722411#References" target="_blank">5. References</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       attitude
+       <span style="color: #bababa; font-size: 12px">0.410</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sensor
+       <span style="color: #bababa; font-size: 12px">0.253</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gyro
+       <span style="color: #bababa; font-size: 12px">0.251</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       algorithms
+       <span style="color: #bababa; font-size: 12px">0.216</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sensors
+       <span style="color: #bababa; font-size: 12px">0.198</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actuators
+       <span style="color: #bababa; font-size: 12px">0.191</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       star
+       <span style="color: #bababa; font-size: 12px">0.177</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       senses
+       <span style="color: #bababa; font-size: 12px">0.173</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sense
+       <span style="color: #bababa; font-size: 12px">0.158</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       orientation
+       <span style="color: #bababa; font-size: 12px">0.133</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       control
+       <span style="color: #bababa; font-size: 12px">0.120</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gyrocompass
+       <span style="color: #bababa; font-size: 12px">0.119</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       citation
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       oscillation
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       tracker
+       <span style="color: #bababa; font-size: 12px">0.106</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       <b>Attitude control</b>
+        is the exercise of control over the orientation of an object with respect to an 
+       <a href="#" title="Inertial frame of reference">inertial frame of reference</a>
+        or another entity (the 
+       <a href="#" title="Celestial sphere">celestial sphere</a>
+       , certain fields, nearby objects, etc.).
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=395654835" target="_blank">2010</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">919 characters</p>
+      <p style="padding: 0px; margin: 0px; ">0 sections</p>
+      <p style="padding: 0px; margin: 0px; ">1 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">1 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">0 external links</p>
+     </td>
+     <td style="width: 25%;"/>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       redirect
+       <span style="color: #bababa; font-size: 12px">1.000</span>
+      </p>
+     </td>
+     <td style="width: 40%;"/>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=151222130" target="_blank">2007</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">922 characters</p>
+      <p style="padding: 0px; margin: 0px; ">0 sections</p>
+      <p style="padding: 0px; margin: 0px; ">1 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">1 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">0 external links</p>
+     </td>
+     <td style="width: 25%;"/>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       redirect
+       <span style="color: #bababa; font-size: 12px">1.000</span>
+      </p>
+     </td>
+     <td style="width: 40%;"/>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=97609783" target="_blank">2006</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">13819 characters</p>
+      <p style="padding: 0px; margin: 0px; ">5 sections</p>
+      <p style="padding: 0px; margin: 0px; ">4 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">30 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">1 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=97609783#Sensors" target="_blank">1. Sensors</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=97609783#Algorithms" target="_blank">2. Algorithms</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=97609783#Actuators" target="_blank">3. Actuators</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=97609783#See_also" target="_blank">4. See also</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=97609783#External_link" target="_blank">5. External link</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       attitude
+       <span style="color: #bababa; font-size: 12px">0.482</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       algorithms
+       <span style="color: #bababa; font-size: 12px">0.406</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       control
+       <span style="color: #bababa; font-size: 12px">0.269</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sensors
+       <span style="color: #bababa; font-size: 12px">0.233</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       commands
+       <span style="color: #bababa; font-size: 12px">0.186</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       translate
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       yaw
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       torques
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       trackers
+       <span style="color: #bababa; font-size: 12px">0.132</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       nonlinear
+       <span style="color: #bababa; font-size: 12px">0.132</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       algorithm
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       gyroscopes
+       <span style="color: #bababa; font-size: 12px">0.126</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pitch
+       <span style="color: #bababa; font-size: 12px">0.114</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       spacecraft
+       <span style="color: #bababa; font-size: 12px">0.111</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       desired
+       <span style="color: #bababa; font-size: 12px">0.109</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       In the context of 
+       <a href="#" title="Spacecraft">spacecraft</a>
+       , 
+       <b>attitude control</b>
+        is control of the angular position and rotation of the spacecraft, either relative to the object that it is orbiting, or relative to the 
+       <a href="#" title="Celestial sphere">celestial sphere</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=32000467" target="_blank">2005</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">10609 characters</p>
+      <p style="padding: 0px; margin: 0px; ">4 sections</p>
+      <p style="padding: 0px; margin: 0px; ">4 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">19 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">0 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=32000467#Sensors" target="_blank">1. Sensors</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=32000467#Algorithms" target="_blank">2. Algorithms</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=32000467#Actuators" target="_blank">3. Actuators</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=32000467#See_also" target="_blank">4. See also</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       efficient
+       <span style="color: #bababa; font-size: 12px">0.278</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       position
+       <span style="color: #bababa; font-size: 12px">0.263</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       control
+       <span style="color: #bababa; font-size: 12px">0.254</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       attitude
+       <span style="color: #bababa; font-size: 12px">0.253</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       adjusting
+       <span style="color: #bababa; font-size: 12px">0.227</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       yaw
+       <span style="color: #bababa; font-size: 12px">0.219</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actuator
+       <span style="color: #bababa; font-size: 12px">0.219</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       algorithms
+       <span style="color: #bababa; font-size: 12px">0.213</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       movement
+       <span style="color: #bababa; font-size: 12px">0.200</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       calculating
+       <span style="color: #bababa; font-size: 12px">0.198</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       algorithm
+       <span style="color: #bababa; font-size: 12px">0.198</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       pitch
+       <span style="color: #bababa; font-size: 12px">0.179</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       desired
+       <span style="color: #bababa; font-size: 12px">0.172</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       roll
+       <span style="color: #bababa; font-size: 12px">0.172</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rotate
+       <span style="color: #bababa; font-size: 12px">0.150</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       In the context of 
+       <a href="#" title="Spacecraft">spacecraft</a>
+       , 
+       <b>attitude control</b>
+        is control of the angular position and rotation of the spacecraft, either relative to the object that it is orbiting, or relative to the 
+       <a href="#" title="Celestial sphere">celestial sphere</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=12077081" target="_blank">2004</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">6982 characters</p>
+      <p style="padding: 0px; margin: 0px; ">3 sections</p>
+      <p style="padding: 0px; margin: 0px; ">6 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">14 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">0 external links</p>
+     </td>
+     <td style="width: 25%;">
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=12077081#Sensors" target="_blank">1. Sensors</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=12077081#Algorithms" target="_blank">2. Algorithms</a>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=12077081#Actuators" target="_blank">3. Actuators</a>
+      </p>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sensor
+       <span style="color: #bababa; font-size: 12px">0.389</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       position
+       <span style="color: #bababa; font-size: 12px">0.307</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       photocell
+       <span style="color: #bababa; font-size: 12px">0.206</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       efficient
+       <span style="color: #bababa; font-size: 12px">0.195</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       control
+       <span style="color: #bababa; font-size: 12px">0.178</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       attitude
+       <span style="color: #bababa; font-size: 12px">0.177</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shades
+       <span style="color: #bababa; font-size: 12px">0.165</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sirius
+       <span style="color: #bababa; font-size: 12px">0.159</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       adjusting
+       <span style="color: #bababa; font-size: 12px">0.159</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actuator
+       <span style="color: #bababa; font-size: 12px">0.154</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       algorithms
+       <span style="color: #bababa; font-size: 12px">0.149</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sees
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       movement
+       <span style="color: #bababa; font-size: 12px">0.140</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       calculating
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       algorithm
+       <span style="color: #bababa; font-size: 12px">0.139</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       In the context of 
+       <a href="#" title="Spacecraft">spacecraft</a>
+       , 
+       <b>attitude control</b>
+        is control of the angular position and rotation of the spacecraft, either relative to the object that it is orbiting, or relative to the 
+       <a href="#" title="Celestial sphere">celestial sphere</a>
+       .
+
+      </p>
+      
+
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=3783836" target="_blank">2003</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">6138 characters</p>
+      <p style="padding: 0px; margin: 0px; ">0 sections</p>
+      <p style="padding: 0px; margin: 0px; ">7 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">13 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">0 external links</p>
+     </td>
+     <td style="width: 25%;"/>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       sensor
+       <span style="color: #bababa; font-size: 12px">0.360</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       position
+       <span style="color: #bababa; font-size: 12px">0.284</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       algorithms
+       <span style="color: #bababa; font-size: 12px">0.276</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       photocell
+       <span style="color: #bababa; font-size: 12px">0.190</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       efficient
+       <span style="color: #bababa; font-size: 12px">0.180</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       control
+       <span style="color: #bababa; font-size: 12px">0.165</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       attitude
+       <span style="color: #bababa; font-size: 12px">0.164</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       celestial
+       <span style="color: #bababa; font-size: 12px">0.160</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sensors
+       <span style="color: #bababa; font-size: 12px">0.158</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actuators
+       <span style="color: #bababa; font-size: 12px">0.153</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       shades
+       <span style="color: #bababa; font-size: 12px">0.153</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sirius
+       <span style="color: #bababa; font-size: 12px">0.147</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       adjusting
+       <span style="color: #bababa; font-size: 12px">0.147</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       actuator
+       <span style="color: #bababa; font-size: 12px">0.142</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sees
+       <span style="color: #bababa; font-size: 12px">0.135</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       In the context of 
+       <a href="#" title="Spacecraft">spacecraft</a>
+       , 
+       <b>attitude control</b>
+        is control of the angular position and rotation of the spacecraft, either relative to the object that it is orbiting, or relative to the 
+       <a href="#" title="Celestial sphere">celestial sphere</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+    <tr>
+     <td style="width: 5%;">
+      <a href="https://en.wikipedia.org/w/index.php?title=Attitude_control&amp;oldid=554642" target="_blank">2002</a>
+     </td>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">1346 characters</p>
+      <p style="padding: 0px; margin: 0px; ">0 sections</p>
+      <p style="padding: 0px; margin: 0px; ">2 paragraphs</p>
+      <p style="padding: 0px; margin: 0px; ">0 images</p>
+      <p style="padding: 0px; margin: 0px; ">4 internal links</p>
+      <p style="padding: 0px; margin: 0px; ">0 external links</p>
+     </td>
+     <td style="width: 25%;"/>
+     <td style="width: 15%;">
+      <p style="padding: 0px; margin: 0px; ">
+       attitude
+       <span style="color: #bababa; font-size: 12px">0.494</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       control
+       <span style="color: #bababa; font-size: 12px">0.331</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       controlling
+       <span style="color: #bababa; font-size: 12px">0.317</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       relative
+       <span style="color: #bababa; font-size: 12px">0.286</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       sphere
+       <span style="color: #bababa; font-size: 12px">0.248</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       celestial
+       <span style="color: #bababa; font-size: 12px">0.241</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       refers
+       <span style="color: #bababa; font-size: 12px">0.236</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       maintained
+       <span style="color: #bababa; font-size: 12px">0.231</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       angular
+       <span style="color: #bababa; font-size: 12px">0.228</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       context
+       <span style="color: #bababa; font-size: 12px">0.210</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       rotation
+       <span style="color: #bababa; font-size: 12px">0.187</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       position
+       <span style="color: #bababa; font-size: 12px">0.171</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       spacecraft
+       <span style="color: #bababa; font-size: 12px">0.170</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       object
+       <span style="color: #bababa; font-size: 12px">0.160</span>
+      </p>
+      <p style="padding: 0px; margin: 0px; ">
+       orbiting
+       <span style="color: #bababa; font-size: 12px">0.145</span>
+      </p>
+     </td>
+     <td style="width: 40%;">
+      <p>
+       In the context of 
+       <a href="#" title="Spacecraft">spacecraft</a>
+       , 
+       <b>attitude control</b>
+        refers to controlling the angular position and rotation of the spacecraft, either relative to the object that it is orbiting, or relative to the 
+       <a href="#" title="Celestial sphere">celestial sphere</a>
+       .
+
+      </p>
+     </td>
+    </tr>
+   </table>
+  </div>
+ </body>
+</html>
